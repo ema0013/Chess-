@@ -39,6 +39,7 @@ public class Table {
     private Tile destinationTile;
     private Piece humanMovedPiece;
     private boolean highlightLegalMoves;
+    private boolean flipBoard;
 
     private final static Dimension OUTER_FRAME_DIMENSION = new Dimension(800,800);
     private final static Dimension BOARD_PANEL_DIMENSION = new Dimension(400,350);
@@ -60,7 +61,7 @@ public class Table {
         this.moveLog = new MoveLog();
         this.boardDirection = BoardDirection.NORMAL;
         this.highlightLegalMoves = false;
-
+        this.flipBoard = false;
 
         this.gameFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         this.gameFrame.add(this.takenPiecesPanel,BorderLayout.WEST);
@@ -100,12 +101,11 @@ public class Table {
 
     private JMenu createPreferencesMenu(){
         final JMenu preferencesMenu = new JMenu("Preferences");
-        final JMenuItem flipBoardMenuItem = new JMenuItem("Flip Board");
+        final JCheckBoxMenuItem flipBoardMenuItem = new JCheckBoxMenuItem("Flip Board");
         flipBoardMenuItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(final ActionEvent e) {
-                boardDirection = boardDirection.opposite();
-                boardPanel.drawBoard(chessBoard);
+                flipBoard = flipBoardMenuItem.isSelected();
             }
         });
         preferencesMenu.add(flipBoardMenuItem);
@@ -246,6 +246,9 @@ public class Table {
                             if(transition.getMoveStatus().isDone()){
                                 chessBoard = transition.getTransitionBoard();
                                 moveLog.addMove(move);
+                                if(flipBoard){
+                                    boardDirection = boardDirection.opposite();
+                                }
                             }
                             sourceTile = null;
                             destinationTile = null;

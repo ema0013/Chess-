@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="982b985d-19e0-48df-8eec-66a541edbdd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chess.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Move$CastleMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Move$CastleMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Move$KingSideCastleMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Move$KingSideCastleMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Move$MoveFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Move$MoveFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Move$NullMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Move$NullMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Move$QueenSideCastleMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/com/chess/engine/board/Move$QueenSideCastleMove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/gui/Table$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/com/chess/gui/Table$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/gui/Table$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/com/chess/gui/Table$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/gui/Table$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/com/chess/gui/Table$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/gui/Table$TilePanel$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/com/chess/gui/Table$TilePanel$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/gui/Table$TilePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/com/chess/gui/Table$TilePanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/gui/Table$TilePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/com/chess/gui/Table$TilePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess/com/chess/gui/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess/com/chess/gui/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/gui/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/gui/Table.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,83 +27,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/chess/engine/player/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="102" selection-start-line="102" selection-end-line="102" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Move.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="355" column="101" selection-start-line="355" selection-start-column="101" selection-end-line="355" selection-end-column="101" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Board.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-139">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6404#6405#0" expanded="true" />
-                <element signature="e#6450#6451#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/chess/Chess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/chess/gui/Table.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="244" selection-start-line="244" selection-end-line="244" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/chess/engine/player/WhitePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="484">
               <caret line="40" column="37" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -105,8 +41,82 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/chess/engine/player/BlackPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+            <state relative-caret-position="594">
+              <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/chess/gui/Table.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="244" selection-start-line="244" selection-end-line="244" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3286#3287#0" expanded="true" />
+                <element signature="e#3356#3357#0" expanded="true" />
+                <element signature="e#3602#3603#0" expanded="true" />
+                <element signature="e#3648#3649#0" expanded="true" />
+                <element signature="e#4076#4077#0" expanded="true" />
+                <element signature="e#4150#4151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/King.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1590#1591#0" expanded="true" />
+                <element signature="e#1627#1628#0" expanded="true" />
+                <element signature="e#1675#1676#0" expanded="true" />
+                <element signature="e#1724#1725#0" expanded="true" />
+                <element signature="e#1773#1774#0" expanded="true" />
+                <element signature="e#1823#1824#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-386">
+              <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6404#6405#0" expanded="true" />
+                <element signature="e#6450#6451#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Move.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7788">
+              <caret line="400" selection-start-line="400" selection-end-line="400" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/chess/engine/player/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1628">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,6 +143,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Edwin" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -156,14 +171,14 @@
         <option value="$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java" />
         <option value="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" />
         <option value="$PROJECT_DIR$/src/com/chess/engine/Alliance.java" />
-        <option value="$PROJECT_DIR$/src/com/chess/engine/board/Board.java" />
-        <option value="$PROJECT_DIR$/src/com/chess/gui/Table.java" />
         <option value="$PROJECT_DIR$/src/com/chess/gui/TakenPiecesPanel.java" />
         <option value="$PROJECT_DIR$/src/com/chess/engine/pieces/King.java" />
         <option value="$PROJECT_DIR$/src/com/chess/engine/player/WhitePlayer.java" />
         <option value="$PROJECT_DIR$/src/com/chess/engine/player/BlackPlayer.java" />
         <option value="$PROJECT_DIR$/src/com/chess/engine/player/Player.java" />
         <option value="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" />
+        <option value="$PROJECT_DIR$/src/com/chess/engine/board/Board.java" />
+        <option value="$PROJECT_DIR$/src/com/chess/gui/Table.java" />
       </list>
     </option>
   </component>
@@ -179,7 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,6 +230,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chess" type="462c0819:PsiDirectoryNode" />
               <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chess" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chess" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
               <item name="pieces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -238,10 +260,11 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548822631167" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548977348658" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/guava-21.0.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -310,9 +333,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19127516" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21006711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -327,8 +349,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -340,6 +362,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added auto flipping of board" />
+    <option name="LAST_COMMIT_MESSAGE" value="added auto flipping of board" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -348,24 +374,6 @@
           <line>78</line>
           <properties />
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/chess/engine/board/Board.java</url>
-          <line>180</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/chess/engine/player/Player.java</url>
-          <line>102</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/chess/gui/Table.java</url>
-          <line>244</line>
-          <properties />
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
@@ -432,20 +440,6 @@
           <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#1531#1532#0" expanded="true" />
-            <element signature="e#3793#3794#0" expanded="true" />
-            <element signature="e#3838#3839#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -528,18 +522,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/King.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+        <state relative-caret-position="22">
+          <caret line="1" column="51" lean-forward="true" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1804">
+          <caret line="106" column="23" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1627#1628#0" expanded="true" />
-            <element signature="e#1675#1676#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#1773#1774#0" expanded="true" />
-            <element signature="e#1823#1824#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+            <element signature="e#3793#3794#0" expanded="true" />
+            <element signature="e#3838#3839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/Chess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -554,10 +563,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/player/WhitePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chess/engine/player/BlackPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+        <state relative-caret-position="594">
+          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/King.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1627#1628#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1724#1725#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1823#1824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7788">
+          <caret line="400" selection-start-line="400" selection-end-line="400" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -566,10 +611,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chess/engine/player/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="1628">
           <caret line="102" selection-start-line="102" selection-end-line="102" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-386">
+          <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6404#6405#0" expanded="true" />
+            <element signature="e#6450#6451#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -580,48 +637,12 @@
           <caret line="244" selection-start-line="244" selection-end-line="244" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chess/Chess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/player/WhitePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6404#6405#0" expanded="true" />
-            <element signature="e#6450#6451#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Move.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="355" column="101" selection-start-line="355" selection-start-column="101" selection-end-line="355" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3286#3287#0" expanded="true" />
+            <element signature="e#3356#3357#0" expanded="true" />
+            <element signature="e#3602#3603#0" expanded="true" />
+            <element signature="e#3648#3649#0" expanded="true" />
+            <element signature="e#4076#4077#0" expanded="true" />
+            <element signature="e#4150#4151#0" expanded="true" />
           </folding>
         </state>
       </provider>
